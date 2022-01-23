@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_event_app/pages/forms.dart';
 import 'package:flutter_event_app/pages/home_page.dart';
-
+//import 'package:flutter_event_app/pages/splashscreen.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
