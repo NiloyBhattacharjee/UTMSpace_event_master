@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_event_app/pages/forms.dart';
 import 'package:flutter_event_app/pages/home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 //import 'package:flutter_event_app/pages/splashscreen.dart';
-void main() => runApp(MyApp());
+Future<void> main() async => {
+  
+  await Firebase.initializeApp(),
+  
+
+  runApp(MyApp())};
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,16 +20,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-    
-     home: MyHomePage(),
-     //form : HelpForm(),
+
+      home: MyHomePage(),
+      //form : HelpForm(),
       initialRoute: 'home',
       routes: {
-        'home' : (context) => MyHomePage(),
-    
-        'form' : (context) => HelpForm() 
+        'home': (context) => MyHomePage(),
+        'form': (context) => HelpForm()
       },
-     
     );
   }
 }
