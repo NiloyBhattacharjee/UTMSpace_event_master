@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                buildSearchAppBar(),
+               // buildSearchAppBar(),
                 UIHelper.verticalSpace(16),
                 buildUpComingEventList(),
                 UIHelper.verticalSpace(16),
@@ -110,32 +110,32 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButtonAnimator: FloatingActionButtonAnimator.scaling,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(FontAwesomeIcons.qrcode),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {},
+      //   child: Icon(FontAwesomeIcons.qrcode),
+      // ),
     );
   }
 
-  Widget buildSearchAppBar() {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: TextField(
-        style: TextStyle(color: Colors.white),
-        decoration: InputDecoration(
-          hintText: "Search...",
-          hintStyle: TextStyle(
-              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
-          border:
-              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-          enabledBorder:
-              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-          focusedBorder:
-              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-        ),
-      ),
-    );
-  }
+  // Widget buildSearchAppBar() {
+  //   return Padding(
+  //     padding: const EdgeInsets.symmetric(horizontal: 16),
+  //     child: TextField(
+  //       style: TextStyle(color: Colors.white),
+  //       decoration: InputDecoration(
+  //         hintText: "Search...",
+  //         hintStyle: TextStyle(
+  //             color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+  //         border:
+  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+  //         enabledBorder:
+  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+  //         focusedBorder:
+  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+  //       ),
+  //     ),
+  //   );
+  // }
 
   Widget buildUpComingEventList() {
     return Container(

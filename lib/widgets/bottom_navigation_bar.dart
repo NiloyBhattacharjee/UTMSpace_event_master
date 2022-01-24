@@ -14,7 +14,7 @@ class HomePageButtonNavigationBar extends StatelessWidget {
       type: BottomNavigationBarType.fixed,
       items: [
         BottomNavigationBarItem(
-          label : "Explore",
+          label : '  ',
           icon: Icon(Icons.explore),
         ),
         // BottomNavigationBarItem(
