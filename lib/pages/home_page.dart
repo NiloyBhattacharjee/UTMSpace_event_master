@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
-              Text("Nearby Concerts", style: headerStyle),
+              Text("Upcoming Events", style: headerStyle),
               Spacer(),
               Icon(Icons.more_horiz),
               UIHelper.horizontalSpace(16),

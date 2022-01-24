@@ -14,8 +14,8 @@ class HomePageButtonNavigationBar extends StatelessWidget {
       type: BottomNavigationBarType.fixed,
       items: [
         BottomNavigationBarItem(
-          label : '  ',
-          icon: Icon(Icons.explore),
+          label : 'More Events',
+          icon: Icon(Icons.star),
         ),
         // BottomNavigationBarItem(
         //   title: Text("Map"),
