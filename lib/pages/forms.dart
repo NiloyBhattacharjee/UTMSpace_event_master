@@ -17,7 +17,7 @@ class _HelpFormState extends State<HelpForm> {
         title: const Text("Blackboard Help Form"),
         elevation: 0,
       ),
-      body: const MBContactForm(
+      body:const MBContactForm(
         hasHeading: true,
         withIcons: false,
         destinationEmail: "nlbhattacharjee20@gmail.com",
