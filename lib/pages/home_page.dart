@@ -117,25 +117,25 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     );
   }
 
-  // Widget buildSearchAppBar() {
-  //   return Padding(
-  //     padding: const EdgeInsets.symmetric(horizontal: 16),
-  //     child: TextField(
-  //       style: TextStyle(color: Colors.white),
-  //       decoration: InputDecoration(
-  //         hintText: "Search...",
-  //         hintStyle: TextStyle(
-  //             color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
-  //         border:
-  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-  //         enabledBorder:
-  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-  //         focusedBorder:
-  //             UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
-  //       ),
-  //     ),
-  //   );
-  // }
+  Widget buildSearchAppBar() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: TextField(
+        style: TextStyle(color: Colors.white),
+        decoration: InputDecoration(
+          hintText: "Search...",
+          hintStyle: TextStyle(
+              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+          border:
+              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+          enabledBorder:
+              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+          focusedBorder:
+              UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+        ),
+      ),
+    );
+  }
 
   Widget buildUpComingEventList() {
     return Container(
