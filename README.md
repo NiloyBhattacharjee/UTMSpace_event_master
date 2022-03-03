@@ -15,8 +15,8 @@ Flutter event app UI design inspire from Dribble.
 
 HomePage             |  Detail     
 :-------------------------:|:-------------------------:
-<img src="assets/screenshot1.jpg" alt="home" width="500"/>  |  <img src="assets/screenshot2.jpg" alt="Detail" width="500"/>
-
+<!-- <img src="assets/screenshot1.jpg" alt="home" width="500"/>  |  <img src="assets/screenshot2.jpg" alt="Detail" width="500"/>
+ -->
 # Implemented Feature
 
 - Hero Animation
